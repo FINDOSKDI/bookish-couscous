@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: calvo
+spec:
+  containers:
+  - name: calvo
+    image: calvo:local
+    ports:
+    - containerPort: 80
